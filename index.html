@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<style>
+    .pai{
+        height: 500px;
+        width: 1000px;
+        border: 1px solid black;
+    }
+
+    .filho{
+        height:200px;
+        width:200px;
+        border:1px solid red;
+        margin:0 auto;
+    }
+
+    .pai2{
+        height: 500px;
+        width: 500px;
+        border: 5px solid black;
+        position: relative;
+    }
+
+    .pai2 .filho2{
+        height:100px;
+        width:100px;
+        background-color: lightseagreen;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;          
+        right: 0;
+        margin: auto;
+              
+        
+    }
+</style>
+<body>
+    <div class="pai">
+        <h2>Forma 1 Centralização</h2>
+        <div class="filho">
+
+        </div>
+    </div>
+
+
+    <div class="pai2">
+        <h2>Forma 2 Centralização</h2>
+        <div class="filho2">
+
+        </div>
+    </div>
+</body>
+</html>
